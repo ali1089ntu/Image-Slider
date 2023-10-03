@@ -1,0 +1,58 @@
+
+body{
+    margin: 0;
+}
+
+ #maincontainer{
+    position: relative;
+} 
+ 
+.subdiv1{
+    position: relative;
+    height: auto;
+    display: none;
+} 
+
+.ptag{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.449);
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.spn1{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    margin-left: 2%;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+ 
+.spn2{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    margin-right: 2%;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 50%; 
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
